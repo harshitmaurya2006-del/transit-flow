@@ -121,7 +121,7 @@ export default function TransitMap({
             key={bus.id}
             position={[bus.latitude, bus.longitude]}
             icon={busIcon(bus, bus.id === selectedBusId)}
-            eventHandlers={onSelectBus ? { click: () => onSelectBus(bus.id) } : undefined}
+            eventHandlers={{ click: () => onSelectBus?.(bus.id) }}
             zIndexOffset={bus.id === selectedBusId ? 1000 : 0}
           >
             <Tooltip direction="top">
