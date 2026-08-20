@@ -10,33 +10,219 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as MapRouteImport } from './routes/map'
+import { Route as RoutesRouteImport } from './routes/routes'
+import { Route as StopsRouteImport } from './routes/stops'
+import { Route as AdminIndexRouteImport } from './routes/admin.index'
+import { Route as AdminAnalyticsRouteImport } from './routes/admin.analytics'
+import { Route as AdminBusesRouteImport } from './routes/admin.buses'
+import { Route as AdminFleetRouteImport } from './routes/admin.fleet'
+import { Route as AdminLoginRouteImport } from './routes/admin.login'
+import { Route as AdminRoutesRouteImport } from './routes/admin.routes'
+import { Route as AdminStopsRouteImport } from './routes/admin.stops'
+import { Route as BusIdRouteImport } from './routes/bus.$id'
+import { Route as DriverIndexRouteImport } from './routes/driver.index'
+import { Route as DriverLoginRouteImport } from './routes/driver.login'
+import { Route as RouteIdRouteImport } from './routes/route.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MapRoute = MapRouteImport.update({
+  id: '/map',
+  path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoutesRoute = RoutesRouteImport.update({
+  id: '/routes',
+  path: '/routes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StopsRoute = StopsRouteImport.update({
+  id: '/stops',
+  path: '/stops',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/admin/',
+  path: '/admin/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminAnalyticsRoute = AdminAnalyticsRouteImport.update({
+  id: '/admin/analytics',
+  path: '/admin/analytics',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminBusesRoute = AdminBusesRouteImport.update({
+  id: '/admin/buses',
+  path: '/admin/buses',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminFleetRoute = AdminFleetRouteImport.update({
+  id: '/admin/fleet',
+  path: '/admin/fleet',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminLoginRoute = AdminLoginRouteImport.update({
+  id: '/admin/login',
+  path: '/admin/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminRoutesRoute = AdminRoutesRouteImport.update({
+  id: '/admin/routes',
+  path: '/admin/routes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminStopsRoute = AdminStopsRouteImport.update({
+  id: '/admin/stops',
+  path: '/admin/stops',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BusIdRoute = BusIdRouteImport.update({
+  id: '/bus/$id',
+  path: '/bus/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DriverIndexRoute = DriverIndexRouteImport.update({
+  id: '/driver/',
+  path: '/driver/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DriverLoginRoute = DriverLoginRouteImport.update({
+  id: '/driver/login',
+  path: '/driver/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RouteIdRoute = RouteIdRouteImport.update({
+  id: '/route/$id',
+  path: '/route/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/map': typeof MapRoute
+  '/routes': typeof RoutesRoute
+  '/stops': typeof StopsRoute
+  '/admin/analytics': typeof AdminAnalyticsRoute
+  '/admin/buses': typeof AdminBusesRoute
+  '/admin/fleet': typeof AdminFleetRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/routes': typeof AdminRoutesRoute
+  '/admin/stops': typeof AdminStopsRoute
+  '/bus/$id': typeof BusIdRoute
+  '/driver/login': typeof DriverLoginRoute
+  '/route/$id': typeof RouteIdRoute
+  '/admin/': typeof AdminIndexRoute
+  '/driver/': typeof DriverIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/map': typeof MapRoute
+  '/routes': typeof RoutesRoute
+  '/stops': typeof StopsRoute
+  '/admin/analytics': typeof AdminAnalyticsRoute
+  '/admin/buses': typeof AdminBusesRoute
+  '/admin/fleet': typeof AdminFleetRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/routes': typeof AdminRoutesRoute
+  '/admin/stops': typeof AdminStopsRoute
+  '/bus/$id': typeof BusIdRoute
+  '/driver/login': typeof DriverLoginRoute
+  '/route/$id': typeof RouteIdRoute
+  '/admin': typeof AdminIndexRoute
+  '/driver': typeof DriverIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/map': typeof MapRoute
+  '/routes': typeof RoutesRoute
+  '/stops': typeof StopsRoute
+  '/admin/analytics': typeof AdminAnalyticsRoute
+  '/admin/buses': typeof AdminBusesRoute
+  '/admin/fleet': typeof AdminFleetRoute
+  '/admin/login': typeof AdminLoginRoute
+  '/admin/routes': typeof AdminRoutesRoute
+  '/admin/stops': typeof AdminStopsRoute
+  '/bus/$id': typeof BusIdRoute
+  '/driver/login': typeof DriverLoginRoute
+  '/route/$id': typeof RouteIdRoute
+  '/admin/': typeof AdminIndexRoute
+  '/driver/': typeof DriverIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/map'
+    | '/routes'
+    | '/stops'
+    | '/admin/analytics'
+    | '/admin/buses'
+    | '/admin/fleet'
+    | '/admin/login'
+    | '/admin/routes'
+    | '/admin/stops'
+    | '/bus/$id'
+    | '/driver/login'
+    | '/route/$id'
+    | '/admin/'
+    | '/driver/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/map'
+    | '/routes'
+    | '/stops'
+    | '/admin/analytics'
+    | '/admin/buses'
+    | '/admin/fleet'
+    | '/admin/login'
+    | '/admin/routes'
+    | '/admin/stops'
+    | '/bus/$id'
+    | '/driver/login'
+    | '/route/$id'
+    | '/admin'
+    | '/driver'
+  id:
+    | '__root__'
+    | '/'
+    | '/map'
+    | '/routes'
+    | '/stops'
+    | '/admin/analytics'
+    | '/admin/buses'
+    | '/admin/fleet'
+    | '/admin/login'
+    | '/admin/routes'
+    | '/admin/stops'
+    | '/bus/$id'
+    | '/driver/login'
+    | '/route/$id'
+    | '/admin/'
+    | '/driver/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  MapRoute: typeof MapRoute
+  RoutesRoute: typeof RoutesRoute
+  StopsRoute: typeof StopsRoute
+  AdminAnalyticsRoute: typeof AdminAnalyticsRoute
+  AdminBusesRoute: typeof AdminBusesRoute
+  AdminFleetRoute: typeof AdminFleetRoute
+  AdminLoginRoute: typeof AdminLoginRoute
+  AdminRoutesRoute: typeof AdminRoutesRoute
+  AdminStopsRoute: typeof AdminStopsRoute
+  BusIdRoute: typeof BusIdRoute
+  DriverLoginRoute: typeof DriverLoginRoute
+  RouteIdRoute: typeof RouteIdRoute
+  AdminIndexRoute: typeof AdminIndexRoute
+  DriverIndexRoute: typeof DriverIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +234,123 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/routes': {
+      id: '/routes'
+      path: '/routes'
+      fullPath: '/routes'
+      preLoaderRoute: typeof RoutesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/stops': {
+      id: '/stops'
+      path: '/stops'
+      fullPath: '/stops'
+      preLoaderRoute: typeof StopsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/': {
+      id: '/admin/'
+      path: '/admin'
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/analytics': {
+      id: '/admin/analytics'
+      path: '/admin/analytics'
+      fullPath: '/admin/analytics'
+      preLoaderRoute: typeof AdminAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/buses': {
+      id: '/admin/buses'
+      path: '/admin/buses'
+      fullPath: '/admin/buses'
+      preLoaderRoute: typeof AdminBusesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/fleet': {
+      id: '/admin/fleet'
+      path: '/admin/fleet'
+      fullPath: '/admin/fleet'
+      preLoaderRoute: typeof AdminFleetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/login': {
+      id: '/admin/login'
+      path: '/admin/login'
+      fullPath: '/admin/login'
+      preLoaderRoute: typeof AdminLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/routes': {
+      id: '/admin/routes'
+      path: '/admin/routes'
+      fullPath: '/admin/routes'
+      preLoaderRoute: typeof AdminRoutesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/stops': {
+      id: '/admin/stops'
+      path: '/admin/stops'
+      fullPath: '/admin/stops'
+      preLoaderRoute: typeof AdminStopsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bus/$id': {
+      id: '/bus/$id'
+      path: '/bus/$id'
+      fullPath: '/bus/$id'
+      preLoaderRoute: typeof BusIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/driver/': {
+      id: '/driver/'
+      path: '/driver'
+      fullPath: '/driver/'
+      preLoaderRoute: typeof DriverIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/driver/login': {
+      id: '/driver/login'
+      path: '/driver/login'
+      fullPath: '/driver/login'
+      preLoaderRoute: typeof DriverLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/route/$id': {
+      id: '/route/$id'
+      path: '/route/$id'
+      fullPath: '/route/$id'
+      preLoaderRoute: typeof RouteIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  MapRoute: MapRoute,
+  RoutesRoute: RoutesRoute,
+  StopsRoute: StopsRoute,
+  AdminAnalyticsRoute: AdminAnalyticsRoute,
+  AdminBusesRoute: AdminBusesRoute,
+  AdminFleetRoute: AdminFleetRoute,
+  AdminLoginRoute: AdminLoginRoute,
+  AdminRoutesRoute: AdminRoutesRoute,
+  AdminStopsRoute: AdminStopsRoute,
+  BusIdRoute: BusIdRoute,
+  DriverLoginRoute: DriverLoginRoute,
+  RouteIdRoute: RouteIdRoute,
+  AdminIndexRoute: AdminIndexRoute,
+  DriverIndexRoute: DriverIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
