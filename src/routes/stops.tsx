@@ -11,7 +11,7 @@ import { formatEta } from "@/lib/transit-format";
 
 export const Route = createFileRoute("/stops")({
   validateSearch: (search: Record<string, unknown>) => ({
-    stop: typeof search.stop === "string" ? search.stop : undefined,
+    stop: typeof search['stop'] === "string" ? (search['stop'] as string) : undefined,
   }),
   head: () => ({
     meta: [
