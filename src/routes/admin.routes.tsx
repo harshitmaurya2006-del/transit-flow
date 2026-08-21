@@ -34,7 +34,10 @@ function RoutesAdminPage() {
     const next = [...selected.stopIds];
     const target = index + delta;
     if (target < 0 || target >= next.length) return;
-    [next[index], next[target]] = [next[target], next[index]];
+    const a = next[index]!;
+    const b = next[target]!;
+    next[index] = b;
+    next[target] = a;
     updateStops(next);
   }
 

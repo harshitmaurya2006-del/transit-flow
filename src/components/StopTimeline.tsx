@@ -4,7 +4,7 @@ import type { Stop } from "@/data/transit";
 interface StopTimelineProps {
   stops: Stop[];
   /** Index of the next stop the bus will reach; earlier stops render as passed. */
-  activeIndex?: number;
+  activeIndex?: number | undefined;
   className?: string;
 }
 

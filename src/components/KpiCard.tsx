@@ -20,7 +20,7 @@ export function KpiCard({
   value: string | number;
   icon: LucideIcon;
   tone?: keyof typeof TONES;
-  hint?: string;
+  hint?: string | undefined;
 }) {
   return (
     <div className="rounded-xl border border-border bg-card p-4">
