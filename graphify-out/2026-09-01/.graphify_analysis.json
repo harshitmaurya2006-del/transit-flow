@@ -1,0 +1,1134 @@
+{
+  "communities": {
+    "0": [
+      "src_components_buscard",
+      "src_components_buscard_buscard",
+      "src_components_datatable",
+      "src_components_datatable_column",
+      "src_components_datatable_datatable",
+      "src_components_etacard",
+      "src_components_etacard_etacard",
+      "src_components_freshnessindicator",
+      "src_components_freshnessindicator_dot",
+      "src_components_freshnessindicator_freshnessindicator",
+      "src_components_freshnessindicator_tone",
+      "src_components_kpicard",
+      "src_components_kpicard_kpicard",
+      "src_components_kpicard_tones",
+      "src_components_map_mappanel",
+      "src_components_map_mappanel_mappanel",
+      "src_components_map_mappanel_transitmap",
+      "src_components_map_transitmap",
+      "src_components_map_transitmap_busicon",
+      "src_components_map_transitmap_fitbounds",
+      "src_components_map_transitmap_status_color",
+      "src_components_map_transitmap_stopicon",
+      "src_components_map_transitmap_transitmap",
+      "src_components_map_transitmap_transitmapprops",
+      "src_components_map_transitmap_usericon",
+      "src_components_routecard",
+      "src_components_routecard_routecard",
+      "src_components_searchbar",
+      "src_components_searchbar_searchbar",
+      "src_components_stateviews",
+      "src_components_stateviews_cardskeleton",
+      "src_components_stateviews_emptystate",
+      "src_components_stateviews_errorstate",
+      "src_components_stateviews_loadingstate",
+      "src_components_statusbadge",
+      "src_components_statusbadge_map",
+      "src_components_statusbadge_statusbadge",
+      "src_components_statusbadge_statusbadgeprops",
+      "src_components_stopcard",
+      "src_components_stopcard_stopcard",
+      "src_components_stopcard_stopcardprops",
+      "src_components_stoptimeline",
+      "src_components_stoptimeline_stoptimeline",
+      "src_components_stoptimeline_stoptimelineprops",
+      "src_components_ui_button",
+      "src_components_ui_button_button",
+      "src_data_transit",
+      "src_data_transit_buses",
+      "src_data_transit_busrecord",
+      "src_data_transit_driver_bus_id",
+      "src_data_transit_getbusrecord",
+      "src_data_transit_getroute",
+      "src_data_transit_getstop",
+      "src_data_transit_routepath",
+      "src_data_transit_routes",
+      "src_data_transit_routestops",
+      "src_data_transit_stop",
+      "src_data_transit_stops",
+      "src_data_transit_transitroute",
+      "src_data_transit_user_position",
+      "src_hooks_usebusstream",
+      "src_hooks_usebusstream_busstream",
+      "src_hooks_usebusstream_usebus",
+      "src_hooks_usebusstream_usebusstream",
+      "src_layouts_adminlayout",
+      "src_layouts_adminlayout_adminlayout",
+      "src_layouts_adminlayout_nav",
+      "src_layouts_passengerlayout",
+      "src_layouts_passengerlayout_nav",
+      "src_layouts_passengerlayout_passengerlayout",
+      "src_lib_geo_formatdistance",
+      "src_lib_transit_format",
+      "src_lib_transit_format_formatage",
+      "src_lib_transit_format_formateta",
+      "src_lib_transit_format_freshness",
+      "src_lib_transit_format_freshnessof",
+      "src_lib_transit_format_greeting",
+      "src_lib_transit_format_statuslabel",
+      "src_lib_transit_selectors",
+      "src_lib_transit_selectors_activebusesonroute",
+      "src_lib_transit_selectors_busesapproachingstop",
+      "src_lib_transit_selectors_etatostop",
+      "src_lib_transit_selectors_fleetsummary",
+      "src_lib_transit_selectors_searchresults",
+      "src_lib_transit_selectors_searchtransit",
+      "src_routes_admin_analytics",
+      "src_routes_admin_analytics_analyticspage",
+      "src_routes_admin_analytics_chart",
+      "src_routes_admin_buses",
+      "src_routes_admin_buses_busespage",
+      "src_routes_admin_buses_field",
+      "src_routes_admin_fleet",
+      "src_routes_admin_fleet_fleetpage",
+      "src_routes_admin_fleet_sortkey",
+      "src_routes_admin_index",
+      "src_routes_admin_index_admindashboard",
+      "src_routes_admin_routes",
+      "src_routes_admin_stops",
+      "src_routes_admin_stops_stopsadminpage",
+      "src_routes_bus_id",
+      "src_routes_bus_id_busdetailpage",
+      "src_routes_driver_index",
+      "src_routes_driver_index_driverdashboard",
+      "src_routes_driver_index_metric",
+      "src_routes_index",
+      "src_routes_index_passengerhome",
+      "src_routes_index_searchresultsview",
+      "src_routes_map",
+      "src_routes_map_livemappage",
+      "src_routes_route_id",
+      "src_routes_route_id_routedetailpage",
+      "src_routes_routes",
+      "src_routes_routes_routespage",
+      "src_routes_stops",
+      "src_routes_stops_stopspage",
+      "src_services_transport_index",
+      "src_services_transport_index_transportservice",
+      "src_services_transport_socket_adapter",
+      "src_services_transport_socket_adapter_createsockettransportservice",
+      "src_services_transport_types",
+      "src_services_transport_types_buslocationupdate",
+      "src_services_transport_types_busstatus",
+      "src_services_transport_types_livebus"
+    ],
+    "1": [
+      "src_components_map_mappanel_mapskeleton",
+      "src_components_ui_accordion",
+      "src_components_ui_accordion_accordioncontent",
+      "src_components_ui_accordion_accordionitem",
+      "src_components_ui_accordion_accordiontrigger",
+      "src_components_ui_breadcrumb",
+      "src_components_ui_breadcrumb_breadcrumb",
+      "src_components_ui_breadcrumb_breadcrumbellipsis",
+      "src_components_ui_breadcrumb_breadcrumbitem",
+      "src_components_ui_breadcrumb_breadcrumblink",
+      "src_components_ui_breadcrumb_breadcrumblist",
+      "src_components_ui_breadcrumb_breadcrumbpage",
+      "src_components_ui_breadcrumb_breadcrumbseparator",
+      "src_components_ui_card",
+      "src_components_ui_card_card",
+      "src_components_ui_card_cardcontent",
+      "src_components_ui_card_carddescription",
+      "src_components_ui_card_cardfooter",
+      "src_components_ui_card_cardheader",
+      "src_components_ui_card_cardtitle",
+      "src_components_ui_context_menu",
+      "src_components_ui_context_menu_contextmenucheckboxitem",
+      "src_components_ui_context_menu_contextmenucontent",
+      "src_components_ui_context_menu_contextmenuitem",
+      "src_components_ui_context_menu_contextmenulabel",
+      "src_components_ui_context_menu_contextmenuradioitem",
+      "src_components_ui_context_menu_contextmenuseparator",
+      "src_components_ui_context_menu_contextmenushortcut",
+      "src_components_ui_context_menu_contextmenusubcontent",
+      "src_components_ui_context_menu_contextmenusubtrigger",
+      "src_components_ui_dropdown_menu",
+      "src_components_ui_dropdown_menu_dropdownmenucheckboxitem",
+      "src_components_ui_dropdown_menu_dropdownmenucontent",
+      "src_components_ui_dropdown_menu_dropdownmenuitem",
+      "src_components_ui_dropdown_menu_dropdownmenulabel",
+      "src_components_ui_dropdown_menu_dropdownmenuradioitem",
+      "src_components_ui_dropdown_menu_dropdownmenuseparator",
+      "src_components_ui_dropdown_menu_dropdownmenushortcut",
+      "src_components_ui_dropdown_menu_dropdownmenusubcontent",
+      "src_components_ui_dropdown_menu_dropdownmenusubtrigger",
+      "src_components_ui_radio_group",
+      "src_components_ui_radio_group_radiogroup",
+      "src_components_ui_radio_group_radiogroupitem",
+      "src_components_ui_resizable",
+      "src_components_ui_resizable_resizablehandle",
+      "src_components_ui_resizable_resizablepanelgroup",
+      "src_components_ui_tabs",
+      "src_components_ui_tabs_tabscontent",
+      "src_components_ui_tabs_tabslist",
+      "src_components_ui_tabs_tabstrigger",
+      "src_lib_utils_cn"
+    ],
+    "2": [
+      "eslint",
+      "eslint_config_prettier",
+      "eslint_js",
+      "eslint_plugin_prettier",
+      "eslint_plugin_react_hooks",
+      "eslint_plugin_react_refresh",
+      "globals",
+      "lovable_dev_vite_tanstack_config",
+      "nitro",
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_config_prettier",
+      "package_devdependencies_eslint_js",
+      "package_devdependencies_eslint_plugin_prettier",
+      "package_devdependencies_eslint_plugin_react_hooks",
+      "package_devdependencies_eslint_plugin_react_refresh",
+      "package_devdependencies_globals",
+      "package_devdependencies_lovable_dev_vite_tanstack_config",
+      "package_devdependencies_nitro",
+      "package_devdependencies_prettier",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_typescript_eslint",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_build_dev",
+      "package_scripts_dev",
+      "package_scripts_format",
+      "package_scripts_lint",
+      "package_scripts_preview",
+      "package_scripts_test_db",
+      "package_sideeffects",
+      "package_type",
+      "prettier",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "typescript_eslint",
+      "vite",
+      "vitejs_plugin_react"
+    ],
+    "3": [
+      "src_components_ui_input",
+      "src_components_ui_input_input",
+      "src_components_ui_separator",
+      "src_components_ui_separator_separator",
+      "src_components_ui_sidebar",
+      "src_components_ui_sidebar_sidebar",
+      "src_components_ui_sidebar_sidebarcontent",
+      "src_components_ui_sidebar_sidebarcontext",
+      "src_components_ui_sidebar_sidebarcontextprops",
+      "src_components_ui_sidebar_sidebarfooter",
+      "src_components_ui_sidebar_sidebargroup",
+      "src_components_ui_sidebar_sidebargroupaction",
+      "src_components_ui_sidebar_sidebargroupcontent",
+      "src_components_ui_sidebar_sidebargrouplabel",
+      "src_components_ui_sidebar_sidebarheader",
+      "src_components_ui_sidebar_sidebarinput",
+      "src_components_ui_sidebar_sidebarinset",
+      "src_components_ui_sidebar_sidebarmenu",
+      "src_components_ui_sidebar_sidebarmenuaction",
+      "src_components_ui_sidebar_sidebarmenubadge",
+      "src_components_ui_sidebar_sidebarmenubutton",
+      "src_components_ui_sidebar_sidebarmenubuttonvariants",
+      "src_components_ui_sidebar_sidebarmenuitem",
+      "src_components_ui_sidebar_sidebarmenuskeleton",
+      "src_components_ui_sidebar_sidebarmenusub",
+      "src_components_ui_sidebar_sidebarmenusubbutton",
+      "src_components_ui_sidebar_sidebarmenusubitem",
+      "src_components_ui_sidebar_sidebarprovider",
+      "src_components_ui_sidebar_sidebarrail",
+      "src_components_ui_sidebar_sidebarseparator",
+      "src_components_ui_sidebar_sidebartrigger",
+      "src_components_ui_sidebar_usesidebar",
+      "src_components_ui_skeleton",
+      "src_components_ui_skeleton_skeleton",
+      "src_components_ui_tooltip",
+      "src_components_ui_tooltip_tooltipcontent",
+      "src_hooks_use_mobile",
+      "src_hooks_use_mobile_useismobile"
+    ],
+    "4": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2022",
+      "ref_eslint_config_js",
+      "ref_src_ts",
+      "ref_src_tsx",
+      "ref_vite_client",
+      "ref_vite_config_ts",
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowimportingtsextensions",
+      "tsconfig_compileroptions_exactoptionalpropertytypes",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_compileroptions_noimplicitoverride",
+      "tsconfig_compileroptions_noimplicitreturns",
+      "tsconfig_compileroptions_nopropertyaccessfromindexsignature",
+      "tsconfig_compileroptions_nouncheckedindexedaccess",
+      "tsconfig_compileroptions_nouncheckedsideeffectimports",
+      "tsconfig_compileroptions_nounusedlocals",
+      "tsconfig_compileroptions_nounusedparameters",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_types",
+      "tsconfig_compileroptions_verbatimmodulesyntax",
+      "tsconfig_include"
+    ],
+    "5": [
+      "src_lib_geo",
+      "src_lib_geo_cumulativedistances",
+      "src_lib_geo_distancem",
+      "src_lib_geo_distancetoindex",
+      "src_lib_geo_latlng",
+      "src_lib_geo_point",
+      "src_lib_geo_pointatprogress",
+      "src_services_transport_mock_adapter",
+      "src_services_transport_mock_adapter_active_route_count",
+      "src_services_transport_mock_adapter_advance",
+      "src_services_transport_mock_adapter_buildstate",
+      "src_services_transport_mock_adapter_mocktransportservice",
+      "src_services_transport_mock_adapter_mocktransportservice_emit",
+      "src_services_transport_mock_adapter_mocktransportservice_endtrip",
+      "src_services_transport_mock_adapter_mocktransportservice_getbuses",
+      "src_services_transport_mock_adapter_mocktransportservice_start",
+      "src_services_transport_mock_adapter_mocktransportservice_starttrip",
+      "src_services_transport_mock_adapter_mocktransportservice_stop",
+      "src_services_transport_mock_adapter_mocktransportservice_subscribe",
+      "src_services_transport_mock_adapter_pathfor",
+      "src_services_transport_mock_adapter_recompute",
+      "src_services_transport_mock_adapter_seed",
+      "src_services_transport_mock_adapter_simstate",
+      "src_services_transport_mock_adapter_tolivebus",
+      "src_services_transport_mock_adapter_totallength",
+      "src_services_transport_types_transportservice",
+      "src_services_transport_types_transportservice_endtrip",
+      "src_services_transport_types_transportservice_getbuses",
+      "src_services_transport_types_transportservice_starttrip",
+      "src_services_transport_types_transportservice_subscribe"
+    ],
+    "6": [
+      "src_components_bottomsheet",
+      "src_components_bottomsheet_bottomsheet",
+      "src_components_ui_checkbox",
+      "src_components_ui_checkbox_checkbox",
+      "src_components_ui_hover_card",
+      "src_components_ui_hover_card_hovercardcontent",
+      "src_components_ui_popover",
+      "src_components_ui_popover_popovercontent",
+      "src_components_ui_progress",
+      "src_components_ui_progress_progress",
+      "src_components_ui_scroll_area",
+      "src_components_ui_scroll_area_scrollarea",
+      "src_components_ui_scroll_area_scrollbar",
+      "src_components_ui_slider",
+      "src_components_ui_slider_slider",
+      "src_components_ui_switch",
+      "src_components_ui_switch_switch",
+      "src_components_ui_textarea",
+      "src_components_ui_textarea_textarea",
+      "src_components_ui_toggle",
+      "src_components_ui_toggle_group",
+      "src_components_ui_toggle_group_togglegroup",
+      "src_components_ui_toggle_group_togglegroupcontext",
+      "src_components_ui_toggle_group_togglegroupitem",
+      "src_components_ui_toggle_toggle",
+      "src_components_ui_toggle_togglevariants",
+      "src_lib_utils"
+    ],
+    "7": [
+      "src_router",
+      "src_router_getrouter",
+      "src_routetree_gen",
+      "src_routetree_gen_adminanalyticsroute",
+      "src_routetree_gen_adminbusesroute",
+      "src_routetree_gen_adminfleetroute",
+      "src_routetree_gen_adminindexroute",
+      "src_routetree_gen_adminloginroute",
+      "src_routetree_gen_adminroutesroute",
+      "src_routetree_gen_adminstopsroute",
+      "src_routetree_gen_busidroute",
+      "src_routetree_gen_driverindexroute",
+      "src_routetree_gen_driverloginroute",
+      "src_routetree_gen_fileroutesbyfullpath",
+      "src_routetree_gen_fileroutesbyto",
+      "src_routetree_gen_fileroutetypes",
+      "src_routetree_gen_indexroute",
+      "src_routetree_gen_maproute",
+      "src_routetree_gen_register",
+      "src_routetree_gen_rootroutechildren",
+      "src_routetree_gen_routeidroute",
+      "src_routetree_gen_routesroute",
+      "src_routetree_gen_routetree",
+      "src_routetree_gen_stopsroute",
+      "src_routetree_gen_tanstack_react_router",
+      "src_routetree_gen_tanstack_react_start",
+      "src_start_startinstance"
+    ],
+    "8": [
+      "src_components_ui_alert_dialog",
+      "src_components_ui_alert_dialog_alertdialogaction",
+      "src_components_ui_alert_dialog_alertdialogcancel",
+      "src_components_ui_alert_dialog_alertdialogcontent",
+      "src_components_ui_alert_dialog_alertdialogdescription",
+      "src_components_ui_alert_dialog_alertdialogfooter",
+      "src_components_ui_alert_dialog_alertdialogheader",
+      "src_components_ui_alert_dialog_alertdialogoverlay",
+      "src_components_ui_alert_dialog_alertdialogtitle",
+      "src_components_ui_button_buttonprops",
+      "src_components_ui_button_buttonvariants",
+      "src_components_ui_calendar",
+      "src_components_ui_calendar_calendar",
+      "src_components_ui_calendar_calendardaybutton",
+      "src_components_ui_pagination",
+      "src_components_ui_pagination_pagination",
+      "src_components_ui_pagination_paginationcontent",
+      "src_components_ui_pagination_paginationellipsis",
+      "src_components_ui_pagination_paginationitem",
+      "src_components_ui_pagination_paginationlink",
+      "src_components_ui_pagination_paginationlinkprops",
+      "src_components_ui_pagination_paginationnext",
+      "src_components_ui_pagination_paginationprevious"
+    ],
+    "9": [
+      "server_entry",
+      "src_lib_error_capture",
+      "src_lib_error_capture_consumelastcapturederror",
+      "src_lib_error_capture_describeerror",
+      "src_lib_error_capture_describestatus",
+      "src_lib_error_capture_iserrorlike",
+      "src_lib_error_capture_originalconsoleerror",
+      "src_lib_error_capture_record",
+      "src_lib_error_capture_safestringify",
+      "src_lib_error_page",
+      "src_lib_error_page_rendererrorpage",
+      "src_server",
+      "src_server_fetch",
+      "src_server_getserverentry",
+      "src_server_ish3swallowederrorbody",
+      "src_server_normalizecatastrophicssrresponse",
+      "src_server_serverentry",
+      "src_start",
+      "src_start_csrfmiddleware",
+      "src_start_errormiddleware"
+    ],
+    "10": [
+      "components",
+      "components_aliases",
+      "components_aliases_components",
+      "components_aliases_hooks",
+      "components_aliases_lib",
+      "components_aliases_ui",
+      "components_aliases_utils",
+      "components_iconlibrary",
+      "components_registries",
+      "components_rsc",
+      "components_rtl",
+      "components_schema",
+      "components_style",
+      "components_tailwind",
+      "components_tailwind_basecolor",
+      "components_tailwind_css",
+      "components_tailwind_cssvariables",
+      "components_tailwind_prefix",
+      "components_tsx"
+    ],
+    "11": [
+      "src_components_ui_command",
+      "src_components_ui_command_command",
+      "src_components_ui_command_commanddialog",
+      "src_components_ui_command_commandempty",
+      "src_components_ui_command_commandgroup",
+      "src_components_ui_command_commandinput",
+      "src_components_ui_command_commanditem",
+      "src_components_ui_command_commandlist",
+      "src_components_ui_command_commandseparator",
+      "src_components_ui_command_commandshortcut",
+      "src_components_ui_dialog",
+      "src_components_ui_dialog_dialogcontent",
+      "src_components_ui_dialog_dialogdescription",
+      "src_components_ui_dialog_dialogfooter",
+      "src_components_ui_dialog_dialogheader",
+      "src_components_ui_dialog_dialogoverlay",
+      "src_components_ui_dialog_dialogtitle"
+    ],
+    "12": [
+      "src_components_ui_menubar",
+      "src_components_ui_menubar_menubar",
+      "src_components_ui_menubar_menubarcheckboxitem",
+      "src_components_ui_menubar_menubarcontent",
+      "src_components_ui_menubar_menubargroup",
+      "src_components_ui_menubar_menubaritem",
+      "src_components_ui_menubar_menubarlabel",
+      "src_components_ui_menubar_menubarmenu",
+      "src_components_ui_menubar_menubarportal",
+      "src_components_ui_menubar_menubarradiogroup",
+      "src_components_ui_menubar_menubarradioitem",
+      "src_components_ui_menubar_menubarseparator",
+      "src_components_ui_menubar_menubarshortcut",
+      "src_components_ui_menubar_menubarsub",
+      "src_components_ui_menubar_menubarsubcontent",
+      "src_components_ui_menubar_menubarsubtrigger",
+      "src_components_ui_menubar_menubartrigger"
+    ],
+    "13": [
+      "class_variance_authority",
+      "package_dependencies",
+      "package_dependencies_class_variance_authority",
+      "package_dependencies_radix_ui_react_tooltip",
+      "package_dependencies_react_day_picker",
+      "package_dependencies_tailwind_merge",
+      "package_dependencies_tailwindcss",
+      "package_dependencies_tanstack_react_query",
+      "package_dependencies_tanstack_react_router",
+      "radix_ui_react_tooltip",
+      "react_day_picker",
+      "tailwind_merge",
+      "tailwindcss",
+      "tanstack_react_query",
+      "tanstack_react_router"
+    ],
+    "14": [
+      "src_components_ui_form",
+      "src_components_ui_form_formcontrol",
+      "src_components_ui_form_formdescription",
+      "src_components_ui_form_formfield",
+      "src_components_ui_form_formfieldcontext",
+      "src_components_ui_form_formfieldcontextvalue",
+      "src_components_ui_form_formitem",
+      "src_components_ui_form_formitemcontext",
+      "src_components_ui_form_formitemcontextvalue",
+      "src_components_ui_form_formlabel",
+      "src_components_ui_form_formmessage",
+      "src_components_ui_form_useformfield",
+      "src_components_ui_label",
+      "src_components_ui_label_label",
+      "src_components_ui_label_labelvariants"
+    ],
+    "15": [
+      "src_components_ui_carousel",
+      "src_components_ui_carousel_carousel",
+      "src_components_ui_carousel_carouselapi",
+      "src_components_ui_carousel_carouselcontent",
+      "src_components_ui_carousel_carouselcontext",
+      "src_components_ui_carousel_carouselcontextprops",
+      "src_components_ui_carousel_carouselitem",
+      "src_components_ui_carousel_carouselnext",
+      "src_components_ui_carousel_carouseloptions",
+      "src_components_ui_carousel_carouselplugin",
+      "src_components_ui_carousel_carouselprevious",
+      "src_components_ui_carousel_carouselprops",
+      "src_components_ui_carousel_usecarousel",
+      "src_components_ui_carousel_usecarouselparameters"
+    ],
+    "16": [
+      "src_routes_admin_analytics_route",
+      "src_routes_admin_buses_route",
+      "src_routes_admin_fleet_route",
+      "src_routes_admin_index_route",
+      "src_routes_admin_routes_route",
+      "src_routes_admin_stops_route",
+      "src_routes_bus_id_route",
+      "src_routes_driver_index_route",
+      "src_routes_index_route",
+      "src_routes_map_route",
+      "src_routes_route_id_route",
+      "src_routes_routes_route",
+      "src_routes_stops_route",
+      "src_routetree_gen_fileroutesbypath"
+    ],
+    "17": [
+      "src_lib_lovable_error_reporting",
+      "src_lib_lovable_error_reporting_lovableerroroptions",
+      "src_lib_lovable_error_reporting_lovableevents",
+      "src_lib_lovable_error_reporting_reportlovableerror",
+      "src_lib_lovable_error_reporting_window",
+      "src_routes_root",
+      "src_routes_root_errorcomponent",
+      "src_routes_root_notfoundcomponent",
+      "src_routes_root_rootcomponent",
+      "src_routes_root_rootshell",
+      "src_routes_root_route",
+      "src_routetree_gen_fileroutesbyid"
+    ],
+    "18": [
+      "src_components_ui_chart",
+      "src_components_ui_chart_chartconfig",
+      "src_components_ui_chart_chartcontainer",
+      "src_components_ui_chart_chartcontext",
+      "src_components_ui_chart_chartcontextprops",
+      "src_components_ui_chart_chartlegendcontent",
+      "src_components_ui_chart_chartstyle",
+      "src_components_ui_chart_charttooltipcontent",
+      "src_components_ui_chart_getpayloadconfigfrompayload",
+      "src_components_ui_chart_themes",
+      "src_components_ui_chart_usechart"
+    ],
+    "19": [
+      "admin_experience",
+      "driver_experience",
+      "lovable_plan_md",
+      "passenger_experience",
+      "readme_md",
+      "real_time_sync_flow",
+      "smarttransit_project",
+      "src_routes_readme_md",
+      "tanstack_router",
+      "tech_stack_frontend"
+    ],
+    "20": [
+      "src_hooks_usemockauth",
+      "src_hooks_usemockauth_key",
+      "src_hooks_usemockauth_role",
+      "src_hooks_usemockauth_usemockauth",
+      "src_routes_admin_login",
+      "src_routes_admin_login_adminlogin",
+      "src_routes_admin_login_route",
+      "src_routes_driver_login",
+      "src_routes_driver_login_driverlogin",
+      "src_routes_driver_login_route"
+    ],
+    "21": [
+      "src_components_ui_sheet",
+      "src_components_ui_sheet_sheetcontent",
+      "src_components_ui_sheet_sheetcontentprops",
+      "src_components_ui_sheet_sheetdescription",
+      "src_components_ui_sheet_sheetfooter",
+      "src_components_ui_sheet_sheetheader",
+      "src_components_ui_sheet_sheetoverlay",
+      "src_components_ui_sheet_sheettitle",
+      "src_components_ui_sheet_sheetvariants"
+    ],
+    "22": [
+      "src_components_ui_table",
+      "src_components_ui_table_table",
+      "src_components_ui_table_tablebody",
+      "src_components_ui_table_tablecaption",
+      "src_components_ui_table_tablecell",
+      "src_components_ui_table_tablefooter",
+      "src_components_ui_table_tablehead",
+      "src_components_ui_table_tableheader",
+      "src_components_ui_table_tablerow"
+    ],
+    "23": [
+      "src_components_ui_drawer",
+      "src_components_ui_drawer_drawer",
+      "src_components_ui_drawer_drawercontent",
+      "src_components_ui_drawer_drawerdescription",
+      "src_components_ui_drawer_drawerfooter",
+      "src_components_ui_drawer_drawerheader",
+      "src_components_ui_drawer_draweroverlay",
+      "src_components_ui_drawer_drawertitle"
+    ],
+    "24": [
+      "src_components_ui_navigation_menu",
+      "src_components_ui_navigation_menu_navigationmenu",
+      "src_components_ui_navigation_menu_navigationmenucontent",
+      "src_components_ui_navigation_menu_navigationmenuindicator",
+      "src_components_ui_navigation_menu_navigationmenulist",
+      "src_components_ui_navigation_menu_navigationmenutrigger",
+      "src_components_ui_navigation_menu_navigationmenutriggerstyle",
+      "src_components_ui_navigation_menu_navigationmenuviewport"
+    ],
+    "25": [
+      "src_components_ui_select",
+      "src_components_ui_select_selectcontent",
+      "src_components_ui_select_selectitem",
+      "src_components_ui_select_selectlabel",
+      "src_components_ui_select_selectscrolldownbutton",
+      "src_components_ui_select_selectscrollupbutton",
+      "src_components_ui_select_selectseparator",
+      "src_components_ui_select_selecttrigger"
+    ],
+    "26": [
+      "src_components_ui_alert",
+      "src_components_ui_alert_alert",
+      "src_components_ui_alert_alertdescription",
+      "src_components_ui_alert_alerttitle",
+      "src_components_ui_alert_alertvariants"
+    ],
+    "27": [
+      "src_components_ui_input_otp",
+      "src_components_ui_input_otp_inputotp",
+      "src_components_ui_input_otp_inputotpgroup",
+      "src_components_ui_input_otp_inputotpseparator",
+      "src_components_ui_input_otp_inputotpslot"
+    ],
+    "28": [
+      "src_lib_db",
+      "src_lib_db_connecttodatabase",
+      "src_lib_db_mongoosecache",
+      "src_scripts_test_db",
+      "src_scripts_test_db_runverification"
+    ],
+    "29": [
+      "src_components_ui_avatar",
+      "src_components_ui_avatar_avatar",
+      "src_components_ui_avatar_avatarfallback",
+      "src_components_ui_avatar_avatarimage"
+    ],
+    "30": [
+      "src_components_ui_badge",
+      "src_components_ui_badge_badge",
+      "src_components_ui_badge_badgeprops",
+      "src_components_ui_badge_badgevariants"
+    ],
+    "31": [
+      "src_components_ui_sonner",
+      "src_components_ui_sonner_toaster",
+      "src_components_ui_sonner_toasterprops"
+    ],
+    "32": [
+      "src_models_route",
+      "src_models_route_iroute",
+      "src_models_route_routeschema"
+    ],
+    "33": [
+      "src_routes_admin_routes_routesadminpage",
+      "src_routes_admin_routes_routesadminpage_move",
+      "src_routes_admin_routes_routesadminpage_updatestops"
+    ],
+    "34": [
+      "agents_md",
+      "lovable_platform"
+    ],
+    "35": [
+      "clsx",
+      "package_dependencies_clsx"
+    ],
+    "36": [
+      "cmdk",
+      "package_dependencies_cmdk"
+    ],
+    "37": [
+      "date_fns",
+      "package_dependencies_date_fns"
+    ],
+    "38": [
+      "embla_carousel_react",
+      "package_dependencies_embla_carousel_react"
+    ],
+    "39": [
+      "hookform_resolvers",
+      "package_dependencies_hookform_resolvers"
+    ],
+    "40": [
+      "input_otp",
+      "package_dependencies_input_otp"
+    ],
+    "41": [
+      "leaflet",
+      "package_dependencies_leaflet"
+    ],
+    "42": [
+      "lucide_react",
+      "package_dependencies_lucide_react"
+    ],
+    "43": [
+      "mongoose",
+      "package_dependencies_mongoose"
+    ],
+    "44": [
+      "package_dependencies_radix_ui_react_accordion",
+      "radix_ui_react_accordion"
+    ],
+    "45": [
+      "package_dependencies_radix_ui_react_alert_dialog",
+      "radix_ui_react_alert_dialog"
+    ],
+    "46": [
+      "package_dependencies_radix_ui_react_aspect_ratio",
+      "radix_ui_react_aspect_ratio"
+    ],
+    "47": [
+      "package_dependencies_radix_ui_react_avatar",
+      "radix_ui_react_avatar"
+    ],
+    "48": [
+      "package_dependencies_radix_ui_react_checkbox",
+      "radix_ui_react_checkbox"
+    ],
+    "49": [
+      "package_dependencies_radix_ui_react_collapsible",
+      "radix_ui_react_collapsible"
+    ],
+    "50": [
+      "package_dependencies_radix_ui_react_context_menu",
+      "radix_ui_react_context_menu"
+    ],
+    "51": [
+      "package_dependencies_radix_ui_react_dialog",
+      "radix_ui_react_dialog"
+    ],
+    "52": [
+      "package_dependencies_radix_ui_react_dropdown_menu",
+      "radix_ui_react_dropdown_menu"
+    ],
+    "53": [
+      "package_dependencies_radix_ui_react_hover_card",
+      "radix_ui_react_hover_card"
+    ],
+    "54": [
+      "package_dependencies_radix_ui_react_label",
+      "radix_ui_react_label"
+    ],
+    "55": [
+      "package_dependencies_radix_ui_react_menubar",
+      "radix_ui_react_menubar"
+    ],
+    "56": [
+      "package_dependencies_radix_ui_react_navigation_menu",
+      "radix_ui_react_navigation_menu"
+    ],
+    "57": [
+      "package_dependencies_radix_ui_react_popover",
+      "radix_ui_react_popover"
+    ],
+    "58": [
+      "package_dependencies_radix_ui_react_progress",
+      "radix_ui_react_progress"
+    ],
+    "59": [
+      "package_dependencies_radix_ui_react_radio_group",
+      "radix_ui_react_radio_group"
+    ],
+    "60": [
+      "package_dependencies_radix_ui_react_scroll_area",
+      "radix_ui_react_scroll_area"
+    ],
+    "61": [
+      "package_dependencies_radix_ui_react_select",
+      "radix_ui_react_select"
+    ],
+    "62": [
+      "package_dependencies_radix_ui_react_separator",
+      "radix_ui_react_separator"
+    ],
+    "63": [
+      "package_dependencies_radix_ui_react_slider",
+      "radix_ui_react_slider"
+    ],
+    "64": [
+      "package_dependencies_radix_ui_react_slot",
+      "radix_ui_react_slot"
+    ],
+    "65": [
+      "package_dependencies_radix_ui_react_switch",
+      "radix_ui_react_switch"
+    ],
+    "66": [
+      "package_dependencies_radix_ui_react_tabs",
+      "radix_ui_react_tabs"
+    ],
+    "67": [
+      "package_dependencies_radix_ui_react_toggle",
+      "radix_ui_react_toggle"
+    ],
+    "68": [
+      "package_dependencies_radix_ui_react_toggle_group",
+      "radix_ui_react_toggle_group"
+    ],
+    "69": [
+      "package_dependencies_react",
+      "react"
+    ],
+    "70": [
+      "package_dependencies_react_dom",
+      "react_dom"
+    ],
+    "71": [
+      "package_dependencies_react_hook_form",
+      "react_hook_form"
+    ],
+    "72": [
+      "package_dependencies_react_leaflet",
+      "react_leaflet"
+    ],
+    "73": [
+      "package_dependencies_react_resizable_panels",
+      "react_resizable_panels"
+    ],
+    "74": [
+      "package_dependencies_recharts",
+      "recharts"
+    ],
+    "75": [
+      "package_dependencies_sonner",
+      "sonner"
+    ],
+    "76": [
+      "package_dependencies_tailwindcss_vite",
+      "tailwindcss_vite"
+    ],
+    "77": [
+      "package_dependencies_tanstack_react_start",
+      "tanstack_react_start"
+    ],
+    "78": [
+      "package_dependencies_tanstack_router_plugin",
+      "tanstack_router_plugin"
+    ],
+    "79": [
+      "package_dependencies_tw_animate_css",
+      "tw_animate_css"
+    ],
+    "80": [
+      "package_dependencies_types_leaflet",
+      "types_leaflet"
+    ],
+    "81": [
+      "package_dependencies_vaul",
+      "vaul"
+    ],
+    "82": [
+      "package_dependencies_vite_tsconfig_paths",
+      "vite_tsconfig_paths"
+    ],
+    "83": [
+      "package_dependencies_zod",
+      "zod"
+    ],
+    "84": [
+      "eslint_config"
+    ],
+    "85": [
+      "src_components_ui_aspect_ratio"
+    ],
+    "86": [
+      "src_components_ui_collapsible"
+    ],
+    "87": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06064240970278555,
+    "1": 0.07058823529411765,
+    "2": 0.041666666666666664,
+    "3": 0.06827880512091039,
+    "4": 0.0625,
+    "5": 0.13333333333333333,
+    "6": 0.08547008547008547,
+    "7": 0.08547008547008547,
+    "8": 0.1067193675889328,
+    "9": 0.1631578947368421,
+    "10": 0.10526315789473684,
+    "11": 0.125,
+    "12": 0.11764705882352941,
+    "13": 0.13333333333333333,
+    "14": 0.19047619047619047,
+    "15": 0.18681318681318682,
+    "16": 0.14285714285714285,
+    "17": 0.19696969696969696,
+    "18": 0.2545454545454545,
+    "19": 0.24444444444444444,
+    "20": 0.3111111111111111,
+    "21": 0.25,
+    "22": 0.2222222222222222,
+    "23": 0.25,
+    "24": 0.2857142857142857,
+    "25": 0.25,
+    "26": 0.5,
+    "27": 0.4,
+    "28": 0.6,
+    "29": 0.5,
+    "30": 0.6666666666666666,
+    "31": 0.6666666666666666,
+    "32": 0.6666666666666666,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_lib_utils_cn",
+      "label": "cn()",
+      "degree": 239
+    },
+    {
+      "id": "src_data_transit_getroute",
+      "label": "getRoute()",
+      "degree": 30
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 22
+    },
+    {
+      "id": "src_hooks_usebusstream_usebusstream",
+      "label": "useBusStream()",
+      "degree": 18
+    },
+    {
+      "id": "src_components_ui_button_button",
+      "label": "Button",
+      "degree": 17
+    },
+    {
+      "id": "src_routetree_gen_fileroutesbypath",
+      "label": "FileRoutesByPath",
+      "degree": 17
+    },
+    {
+      "id": "src_data_transit_getstop",
+      "label": "getStop()",
+      "degree": 16
+    },
+    {
+      "id": "src_services_transport_types_livebus",
+      "label": "LiveBus",
+      "degree": 16
+    },
+    {
+      "id": "src_lib_transit_format_formateta",
+      "label": "formatEta()",
+      "degree": 15
+    },
+    {
+      "id": "src_components_stateviews_errorstate",
+      "label": "ErrorState()",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "SmartTransit Plan",
+      "target": "SmartTransit Project",
+      "source_files": [
+        ".lovable/plan/smarttransit-real-time-transport-tracking-frontend-2026-08-19.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `SmartTransit Plan` unexpectedly reaches hub `SmartTransit Project`"
+    },
+    {
+      "source": "AlertDialogOverlay",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/alert-dialog.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `AlertDialogOverlay` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "AlertDialogContent",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/alert-dialog.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `AlertDialogContent` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "AlertDialogHeader()",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/alert-dialog.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `AlertDialogHeader()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "AlertDialogFooter()",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/alert-dialog.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `AlertDialogFooter()` unexpectedly reaches hub `cn()`"
+    }
+  ],
+  "tokens": {
+    "input": 32147,
+    "output": 1587
+  }
+}
