@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { Bus, Home, Map, MapPin, Route as RouteIcon } from "lucide-react";
+import { useMockAuth } from "@/hooks/useMockAuth";
 
 const NAV = [
   { to: "/", label: "Home", icon: Home },
@@ -16,6 +17,9 @@ export function PassengerLayout({
   children: ReactNode;
   fullBleed?: boolean;
 }) {
+  const { user: adminUser } = useMockAuth("admin");
+  const { user: driverUser } = useMockAuth("driver");
+
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <header className="sticky top-0 z-[900] border-b border-border bg-card">
@@ -39,13 +43,13 @@ export function PassengerLayout({
               </Link>
             ))}
             <Link
-              to="/driver/login"
+              to={driverUser ? "/driver" : "/driver/login"}
               className="ml-2 rounded-lg border border-border px-3 py-2 text-sm font-medium text-foreground hover:bg-secondary"
             >
               Driver
             </Link>
             <Link
-              to="/admin/login"
+              to={adminUser ? "/admin" : "/admin/login"}
               className="rounded-lg border border-border px-3 py-2 text-sm font-medium text-foreground hover:bg-secondary"
             >
               Admin

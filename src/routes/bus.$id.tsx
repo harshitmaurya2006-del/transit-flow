@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Shield } from "lucide-react";
 import { PassengerLayout } from "@/layouts/PassengerLayout";
 import { ETACard } from "@/components/ETACard";
 import { StopTimeline } from "@/components/StopTimeline";
@@ -7,6 +7,7 @@ import { MapPanel } from "@/components/map/MapPanel";
 import { CardSkeleton, EmptyState, ErrorState } from "@/components/StateViews";
 import { Button } from "@/components/ui/button";
 import { useBus } from "@/hooks/useBusStream";
+import { useMockAuth } from "@/hooks/useMockAuth";
 import { getRoute, routeStops } from "@/data/transit";
 
 export const Route = createFileRoute("/bus/$id")({
@@ -35,19 +36,32 @@ export const Route = createFileRoute("/bus/$id")({
 function BusDetailPage() {
   const { id } = Route.useParams();
   const { bus, loading, error, retry } = useBus(id);
+  const { user: adminUser } = useMockAuth("admin");
   const route = bus ? getRoute(bus.routeId) : undefined;
   const stops = route ? routeStops(route) : [];
   const activeIndex = bus?.nextStopId ? route?.stopIds.indexOf(bus.nextStopId) : undefined;
 
   return (
     <PassengerLayout>
-      <Link
-        to="/map"
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft aria-hidden className="size-4" />
-        Back to map
-      </Link>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <Link
+          to="/map"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground"
+        >
+          <ArrowLeft aria-hidden className="size-4" />
+          Back to map
+        </Link>
+
+        {adminUser ? (
+          <Link
+            to="/admin/fleet"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground hover:bg-secondary transition-colors"
+          >
+            <Shield aria-hidden className="size-3.5 text-primary" />
+            Back to Admin Fleet
+          </Link>
+        ) : null}
+      </div>
 
       {loading ? (
         <CardSkeleton />

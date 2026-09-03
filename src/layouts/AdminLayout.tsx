@@ -35,7 +35,7 @@ export function AdminLayout({
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (ready && !user) void navigate({ to: "/admin/login" });
+    if (ready && !user) void navigate({ to: "/admin/login", replace: true });
   }, [ready, user, navigate]);
 
   return (

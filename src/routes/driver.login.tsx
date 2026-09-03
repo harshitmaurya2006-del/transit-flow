@@ -27,7 +27,7 @@ function DriverLogin() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (ready && user) void navigate({ to: "/driver" });
+    if (ready && user) void navigate({ to: "/driver", replace: true });
   }, [ready, user, navigate]);
 
   return (
@@ -51,7 +51,7 @@ function DriverLogin() {
             }
             setError(null);
             login(driverId.trim().toUpperCase());
-            void navigate({ to: "/driver" });
+            void navigate({ to: "/driver", replace: true });
           }}
         >
           <div>

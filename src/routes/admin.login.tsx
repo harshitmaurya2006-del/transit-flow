@@ -27,7 +27,7 @@ function AdminLogin() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (ready && user) void navigate({ to: "/admin" });
+    if (ready && user) void navigate({ to: "/admin", replace: true });
   }, [ready, user, navigate]);
 
   return (
@@ -57,7 +57,7 @@ function AdminLogin() {
               }
               setError(null);
               login(email.trim());
-              void navigate({ to: "/admin" });
+              void navigate({ to: "/admin", replace: true });
             }}
           >
             <div>
